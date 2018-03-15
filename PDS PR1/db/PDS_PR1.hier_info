@@ -1,0 +1,26 @@
+|top
+output <= comb_ckt:inst.output
+input1 => comb_ckt:inst.input1
+input2 => comb_ckt:inst.input2
+input3 => comb_ckt:inst.input3
+
+
+|top|comb_ckt:inst
+input1 => AND_GATE:Gate1.A
+input2 => AND_GATE:Gate1.B
+input3 => OR_GATE:Gate2.Y
+output <= OR_GATE:Gate2.F2
+
+
+|top|comb_ckt:inst|AND_GATE:Gate1
+A => F1.IN0
+B => F1.IN1
+F1 <= F1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|comb_ckt:inst|OR_GATE:Gate2
+X => F2.IN0
+Y => F2.IN1
+F2 <= F2.DB_MAX_OUTPUT_PORT_TYPE
+
+

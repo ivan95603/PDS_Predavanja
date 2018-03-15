@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/simulation/modelsim
+Ccfg_tb
+eMux_TB
+aTB
+Z1 DEx4 work 3 mux 0 22 oV_YRg22AbDQ539LY]<V30
+DAx4 work 6 mux_tb 2 tb 22 oDSGj1iLA`Vn>iiJ=3AXC3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 DEx4 work 6 mux_tb 0 22 hS5>^CaKAbSdLZoK2H99X3
+Z6 w1520569752
+R0
+Z7 8C:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/tb_mux.vhd
+Z8 FC:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/tb_mux.vhd
+l0
+L110
+VI5aHB;PaadVUkjGF];kN43
+!s100 TdRWm0jhk^LeC:TP_PWXN3
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1520570616
+!i10b 0
+Z11 !s108 1520570616.000000
+Z12 !s90 -reportprogress|300|-work|work|C:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/tb_mux.vhd|
+Z13 !s107 C:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/tb_mux.vhd|
+!i113 1
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Emux
+Z16 w1520569742
+R3
+R4
+R0
+Z17 8C:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/mux.vhd
+Z18 FC:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/mux.vhd
+l0
+L16
+VoV_YRg22AbDQ539LY]<V30
+!s100 <Vc>7aLmXDzPoC8mVB5W71
+R9
+32
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-work|work|C:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/mux.vhd|
+Z20 !s107 C:/intelFPGA/16.1/Projects/Predavanja/Predavanje1-2_V1/mux.vhd|
+!i113 1
+R14
+R15
+Abehv2
+R3
+R4
+R1
+l46
+L45
+V02>0:fGE8UMlAJ2E]T^fc3
+!s100 MhBGmo_hamDRhB>7XS_8j3
+R9
+32
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R14
+R15
+Abehv1
+R3
+R4
+R1
+l29
+L28
+VC:Q]G:W8^UMiTOFbo6F1;2
+!s100 U];n]o=WR0L5gYmYk_>V]3
+R9
+32
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R14
+R15
+Emux_tb
+R6
+R2
+R3
+R4
+R0
+R7
+R8
+l0
+L12
+VhS5>^CaKAbSdLZoK2H99X3
+!s100 bh@_U=;mINc99l8lMkFI90
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Atb
+R2
+R3
+R4
+R5
+l37
+L17
+VoDSGj1iLA`Vn>iiJ=3AXC3
+!s100 P4DRVg]EebQH^G96zeONX0
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15

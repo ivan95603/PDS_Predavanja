@@ -1,0 +1,18 @@
+module regi (d, q, ena, clk);
+				
+input	reg ena, clk;
+input	reg	[7:0]	d;
+output wire [7:0]	q;
+
+
+always @(negedge rst)
+begin
+	q = 8'b00000000;
+end
+
+
+
+
+
+
+endmodule				

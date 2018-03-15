@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1 {C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/decoder3to8.v}
+

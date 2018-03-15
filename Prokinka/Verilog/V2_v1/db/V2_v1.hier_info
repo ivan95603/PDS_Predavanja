@@ -1,0 +1,29 @@
+|regi
+d[0] => ~NO_FANOUT~
+d[1] => ~NO_FANOUT~
+d[2] => ~NO_FANOUT~
+d[3] => ~NO_FANOUT~
+d[4] => ~NO_FANOUT~
+d[5] => ~NO_FANOUT~
+d[6] => ~NO_FANOUT~
+d[7] => ~NO_FANOUT~
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ena => ~NO_FANOUT~
+clk => ~NO_FANOUT~
+rst => q[0]~reg0.CLK
+rst => q[1]~reg0.CLK
+rst => q[2]~reg0.CLK
+rst => q[3]~reg0.CLK
+rst => q[4]~reg0.CLK
+rst => q[5]~reg0.CLK
+rst => q[6]~reg0.CLK
+rst => q[7]~reg0.CLK
+
+

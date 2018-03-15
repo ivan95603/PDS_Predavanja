@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/simulation/modelsim
+vdecoder3to8
+!s110 1520596765
+!i10b 1
+!s100 IDX_J1ze^@gebR<0OlGQ?1
+IEN7>cGbcK<E<oL^`h9]4n3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1518802394
+8C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/decoder3to8.v
+FC:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/decoder3to8.v
+L0 3
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1520596765.000000
+!s107 C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/decoder3to8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1|C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/decoder3to8.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1
+Z3 tCvgOpt 0
+vflipflop
+Z4 !s110 1520596779
+!i10b 1
+!s100 g194gif6GCS6P:k639UA^2
+IjXK2fa<415L_eoRXE=jUT0
+R1
+R0
+w1520595253
+8C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/flipflop.v
+FC:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/flipflop.v
+L0 5
+R2
+r1
+!s85 0
+31
+Z5 !s108 1520596779.000000
+!s107 C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/flipflop.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/flipflop.v|
+!i113 1
+Z6 o-work work
+R3
+vtb_DFF
+R4
+!i10b 1
+!s100 `SOOGLO]RjNRkd9TR;SmK1
+I6lgV`P9kW4z4X30Tcjzb53
+R1
+R0
+w1520596725
+8C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/tb_DFF.v
+FC:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/tb_DFF.v
+L0 5
+R2
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/tb_DFF.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/16.1/Projects/Prokinka/Verilog/V1_v1/tb_DFF.v|
+!i113 1
+R6
+R3
+ntb_@d@f@f
