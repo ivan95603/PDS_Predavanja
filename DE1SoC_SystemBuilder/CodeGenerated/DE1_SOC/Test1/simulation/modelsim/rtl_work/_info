@@ -1,0 +1,176 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/simulation/modelsim
+Ed_flipflop
+Z1 w1520955250
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd
+Z5 FC:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd
+l0
+L3
+VRhQofBX];P:10FO5c36Ai1
+!s100 lAQf0nHGZ]zLCfA[=>YFQ3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1520957244
+!i10b 1
+Z8 !s108 1520957244.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd|
+Z10 !s107 C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehave
+R2
+R3
+DEx4 work 10 d_flipflop 0 22 RhQofBX];P:10FO5c36Ai1
+l8
+L7
+Vi]AJYS6NmGBP:FiV5_6=M0
+!s100 mJXlBa2z<FnhamS[^jV[]1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efour_bit_shifter
+Z13 w1520955760
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R0
+Z16 8C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd
+Z17 FC:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd
+l0
+L6
+VGQ2e?JDRkN@[8SnGC[W6[3
+!s100 Rl?P@__Nf@Eh6@e96RC7^1
+R6
+32
+Z18 !s110 1520957258
+!i10b 1
+Z19 !s108 1520957258.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd|
+Z21 !s107 C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd|
+!i113 1
+Z22 o-work work
+R12
+Abehavioral
+R14
+R15
+R2
+R3
+DEx4 work 16 four_bit_shifter 0 22 GQ2e?JDRkN@[8SnGC[W6[3
+l31
+L12
+VSRziHFa>Pb@cNfcM<XPJH1
+!s100 FcYfQ^8d4IUL8kaB1bjz=1
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R22
+R12
+Efour_bit_shifter_tb_vhd
+Z23 w1520955799
+Z24 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R15
+R14
+R2
+R3
+R0
+Z25 8C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd
+Z26 FC:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd
+l0
+L5
+Vbhg><MDnfYkeIV5g6gXE<2
+!s100 LRNVKTD1ZMd3zBI@9nYz_2
+R6
+32
+R18
+!i10b 1
+R19
+Z27 !s90 -reportprogress|300|-work|work|C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd|
+Z28 !s107 C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd|
+!i113 1
+R22
+R12
+Abehavior
+R24
+R15
+R14
+R2
+R3
+DEx4 work 23 four_bit_shifter_tb_vhd 0 22 bhg><MDnfYkeIV5g6gXE<2
+l21
+L7
+Vad]a7Z0fC^^MVHa3aHRV50
+!s100 >i`Z6MBd>;<]_7fBm[<8A0
+R6
+32
+R18
+!i10b 1
+R19
+R27
+R28
+!i113 1
+R22
+R12
+Enbitregister
+Z29 w1520954957
+R2
+R3
+R0
+Z30 8C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd
+Z31 FC:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd
+l0
+L3
+VU1dZX;acizm0Ff>2gSGYH2
+!s100 Da9D^IajI:TIcHgl;:zDT2
+R6
+31
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd|
+Z33 !s107 C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 12 nbitregister 0 22 U1dZX;acizm0Ff>2gSGYH2
+l17
+L12
+VA6L]J=b2a=Fod2D?SHRHF0
+!s100 7eH;k2<E2UHTOGgX19C[N0
+R6
+31
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12

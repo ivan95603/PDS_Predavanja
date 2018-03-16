@@ -1,0 +1,79 @@
+|nbitregister
+Dinputs[0] => D_flipflop:inst:0:A.d
+Dinputs[1] => D_flipflop:inst:1:A.d
+Dinputs[2] => D_flipflop:inst:2:A.d
+Dinputs[3] => D_flipflop:inst:3:A.d
+CLK => D_flipflop:inst:3:A.clk
+CLK => D_flipflop:inst:2:A.clk
+CLK => D_flipflop:inst:1:A.clk
+CLK => D_flipflop:inst:0:A.clk
+reset => D_flipflop:inst:3:A.reset
+reset => D_flipflop:inst:2:A.reset
+reset => D_flipflop:inst:1:A.reset
+reset => D_flipflop:inst:0:A.reset
+preset => D_flipflop:inst:3:A.preset
+preset => D_flipflop:inst:2:A.preset
+preset => D_flipflop:inst:1:A.preset
+preset => D_flipflop:inst:0:A.preset
+q[0] << D_flipflop:inst:0:A.q
+q[1] << D_flipflop:inst:1:A.q
+q[2] << D_flipflop:inst:2:A.q
+q[3] << D_flipflop:inst:3:A.q
+qnot[0] << D_flipflop:inst:0:A.qnot
+qnot[1] << D_flipflop:inst:1:A.qnot
+qnot[2] << D_flipflop:inst:2:A.qnot
+qnot[3] << D_flipflop:inst:3:A.qnot
+
+
+|nbitregister|D_flipflop:\inst:3:A
+d => q~reg0.DATAIN
+d => qnot~reg0.DATAIN
+clk => qnot~reg0.CLK
+clk => q~reg0.CLK
+reset => qnot~reg0.PRESET
+reset => q~reg0.ACLR
+reset => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qnot <= qnot~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|nbitregister|D_flipflop:\inst:2:A
+d => q~reg0.DATAIN
+d => qnot~reg0.DATAIN
+clk => qnot~reg0.CLK
+clk => q~reg0.CLK
+reset => qnot~reg0.PRESET
+reset => q~reg0.ACLR
+reset => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qnot <= qnot~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|nbitregister|D_flipflop:\inst:1:A
+d => q~reg0.DATAIN
+d => qnot~reg0.DATAIN
+clk => qnot~reg0.CLK
+clk => q~reg0.CLK
+reset => qnot~reg0.PRESET
+reset => q~reg0.ACLR
+reset => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qnot <= qnot~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|nbitregister|D_flipflop:\inst:0:A
+d => q~reg0.DATAIN
+d => qnot~reg0.DATAIN
+clk => qnot~reg0.CLK
+clk => q~reg0.CLK
+reset => qnot~reg0.PRESET
+reset => q~reg0.ACLR
+reset => q.IN0
+preset => q.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qnot <= qnot~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
