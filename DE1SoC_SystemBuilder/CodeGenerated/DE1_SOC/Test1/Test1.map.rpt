@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Test1
-Tue Mar 13 17:11:11 2018
+Fri Mar 16 03:07:38 2018
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition
 
 
@@ -44,7 +44,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Mar 13 17:11:11 2018           ;
+; Analysis & Synthesis Status     ; Successful - Fri Mar 16 03:07:38 2018           ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Standard Edition ;
 ; Revision Name                   ; Test1                                           ;
 ; Top-level Entity Name           ; nbitregister                                    ;
@@ -167,14 +167,14 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                              ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                       ; Library ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; nbitregister.vhd                 ; yes             ; User VHDL File  ; C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd ;         ;
-; D_flipflop.vhd                   ; yes             ; User VHDL File  ; C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd   ;         ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                           ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                    ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------+---------+
+; nbitregister.vhd                 ; yes             ; User VHDL File  ; C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd ;         ;
+; D_flipflop.vhd                   ; yes             ; User VHDL File  ; C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd   ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -267,7 +267,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -277,41 +277,59 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition
-    Info: Processing started: Tue Mar 13 17:10:48 2018
+    Info: Processing started: Fri Mar 16 03:07:18 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Test1 -c Test1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file test1.v
-    Info (12023): Found entity 1: Test1 File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/Test1.v Line: 6
+    Info (12023): Found entity 1: Test1 File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/Test1.v Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file nbitregister.vhd
-    Info (12022): Found design unit 1: nbitregister-Behavioral File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd Line: 12
-    Info (12023): Found entity 1: nbitregister File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd Line: 3
+    Info (12022): Found design unit 1: nbitregister-Behavioral File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd Line: 12
+    Info (12023): Found entity 1: nbitregister File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file nbitregistertestbench.vhd
-    Info (12022): Found design unit 1: nbitregistertestbench-behavior File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregistertestbench.vhd Line: 5
-    Info (12023): Found entity 1: nbitregistertestbench File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregistertestbench.vhd Line: 3
+    Info (12022): Found design unit 1: nbitregistertestbench-behavior File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregistertestbench.vhd Line: 5
+    Info (12023): Found entity 1: nbitregistertestbench File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregistertestbench.vhd Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file d_flipflop.vhd
-    Info (12022): Found design unit 1: D_flipflop-behave File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 7
-    Info (12023): Found entity 1: D_flipflop File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 3
+    Info (12022): Found design unit 1: D_flipflop-behave File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 7
+    Info (12023): Found entity 1: D_flipflop File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file d_flipflop_test.vhd
-    Info (12022): Found design unit 1: d_flipflop_test-behavior File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/d_flipflop_test.vhd Line: 5
-    Info (12023): Found entity 1: d_flipflop_test File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/d_flipflop_test.vhd Line: 3
+    Info (12022): Found design unit 1: d_flipflop_test-behavior File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/d_flipflop_test.vhd Line: 5
+    Info (12023): Found entity 1: d_flipflop_test File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/d_flipflop_test.vhd Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file four_bit_shifter.vhd
-    Info (12022): Found design unit 1: four_bit_shifter-Behavioral File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd Line: 12
-    Info (12023): Found entity 1: four_bit_shifter File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd Line: 6
+    Info (12022): Found design unit 1: four_bit_shifter-Behavioral File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd Line: 12
+    Info (12023): Found entity 1: four_bit_shifter File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file four_bit_shifter_tb_vhd.vhd
-    Info (12022): Found design unit 1: four_bit_shifter_tb_vhd-behavior File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd Line: 7
-    Info (12023): Found entity 1: four_bit_shifter_tb_vhd File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd Line: 5
+    Info (12022): Found design unit 1: four_bit_shifter_tb_vhd-behavior File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd Line: 7
+    Info (12023): Found entity 1: four_bit_shifter_tb_vhd File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/four_bit_shifter_tb_vhd.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file updown_counter.vhd
+    Info (12022): Found design unit 1: UPDOWN_COUNTER-Behavioral File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/UPDOWN_COUNTER.vhd Line: 16
+    Info (12023): Found entity 1: UPDOWN_COUNTER File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/UPDOWN_COUNTER.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file tb_counters.vhd
+    Info (12022): Found design unit 1: tb_counters-Behavioral File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/tb_counters.vhd Line: 10
+    Info (12023): Found entity 1: tb_counters File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/tb_counters.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file deco3x8_seq.vhd
+    Info (12022): Found design unit 1: deco3x8_seq-beh File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/deco3x8_seq.vhd Line: 12
+    Info (12023): Found entity 1: deco3x8_seq File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/deco3x8_seq.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file deco3x8_seq_tst.vhd
+    Info (12022): Found design unit 1: deco3x8_seq_tst-beh File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/deco3x8_seq_tst.vhd Line: 7
+    Info (12023): Found entity 1: deco3x8_seq_tst File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/deco3x8_seq_tst.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file mag_comp_4b.vhd
+    Info (12022): Found design unit 1: mag_comp_4b-behav File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/mag_comp_4b.vhd Line: 11
+    Info (12023): Found entity 1: mag_comp_4b File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/mag_comp_4b.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file mag_comp_4b_tst.vhd
+    Info (12022): Found design unit 1: mag_comp_4b_tst-beh File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/mag_comp_4b_tst.vhd Line: 8
+    Info (12023): Found entity 1: mag_comp_4b_tst File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/mag_comp_4b_tst.vhd Line: 4
 Info (12127): Elaborating entity "nbitregister" for the top level hierarchy
-Info (12128): Elaborating entity "D_flipflop" for hierarchy "D_flipflop:\inst:3:A" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd Line: 19
+Info (12128): Elaborating entity "D_flipflop" for hierarchy "D_flipflop:\inst:3:A" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/nbitregister.vhd Line: 19
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "D_flipflop:\inst:0:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:0:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
-    Warning (13310): Register "D_flipflop:\inst:1:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:1:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
-    Warning (13310): Register "D_flipflop:\inst:2:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:2:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
-    Warning (13310): Register "D_flipflop:\inst:3:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:3:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
-    Warning (13310): Register "D_flipflop:\inst:0:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:0:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
-    Warning (13310): Register "D_flipflop:\inst:1:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:1:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
-    Warning (13310): Register "D_flipflop:\inst:2:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:2:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
-    Warning (13310): Register "D_flipflop:\inst:3:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:3:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/Users/Ivan Palijan/Desktop/PROGRAMIRANJE/FPGA/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:0:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:0:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:1:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:1:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:2:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:2:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:3:A|q" is converted into an equivalent circuit using register "D_flipflop:\inst:3:A|q~_emulated" and latch "D_flipflop:\inst:0:A|q~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:0:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:0:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:1:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:1:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:2:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:2:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
+    Warning (13310): Register "D_flipflop:\inst:3:A|qnot" is converted into an equivalent circuit using register "D_flipflop:\inst:3:A|qnot~_emulated" and latch "D_flipflop:\inst:0:A|qnot~1" File: C:/intelFPGA/16.1/Projects/PDS/PDS_Predavanja/DE1SoC_SystemBuilder/CodeGenerated/DE1_SOC/Test1/D_flipflop.vhd Line: 5
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -320,9 +338,9 @@ Info (21057): Implemented 36 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 21 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 774 megabytes
-    Info: Processing ended: Tue Mar 13 17:11:11 2018
-    Info: Elapsed time: 00:00:23
+    Info: Peak virtual memory: 773 megabytes
+    Info: Processing ended: Fri Mar 16 03:07:38 2018
+    Info: Elapsed time: 00:00:20
     Info: Total CPU time (on all processors): 00:00:46
 
 
